@@ -2,6 +2,14 @@ package exercises.sequential;
 
 import java.util.Scanner;
 
+/*
+ * Calculadora de Soma de Inteiros
+ * 
+ * Descrição:
+ * Programa que lê dois valores inteiros, calcula a soma 
+ * entre eles e exibe o resultado na tela.
+ */
+
 public class IntegerSumCalculator {
 	
 	public static void main(String[] args) {
