@@ -3,6 +3,15 @@ package exercises.conditional;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+ * Calculadora de Total de Pedido
+ * 
+ * Descrição:
+ * Com base em uma tabela de produtos, escreva um programa que leia o código 
+ * de um item e a quantidade deste item. A seguir, calcule e mostre o valor 
+ * da conta a pagar, formatado com duas casas decimais.
+ */
+
 public class OrderTotalCalculator {
 
 	public static void main(String[] args) {
