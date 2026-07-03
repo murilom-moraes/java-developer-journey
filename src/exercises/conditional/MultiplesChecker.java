@@ -18,10 +18,8 @@ public class MultiplesChecker {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int a, b;
-		
-		a = sc.nextInt();
-		b = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
 		if((a % b == 0) || (b % a == 0)) {
 			System.out.println("Sao Multiplos");
