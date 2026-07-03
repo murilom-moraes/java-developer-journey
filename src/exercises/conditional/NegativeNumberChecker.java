@@ -16,9 +16,7 @@ public class NegativeNumberChecker {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int numero;
-		
-		numero = sc.nextInt();
+		int numero = sc.nextInt();
 		
 		if (numero < 0) {
 			System.out.println("NEGATIVO");
