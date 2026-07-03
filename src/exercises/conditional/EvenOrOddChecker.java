@@ -16,9 +16,7 @@ public class EvenOrOddChecker {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int numero;
-		
-		numero = sc.nextInt();
+		int numero = sc.nextInt();
 		
 		if(numero % 2 == 0) {
 			System.out.println("PAR");
