@@ -3,6 +3,16 @@ package exercises.conditional;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+ * Calculadora de Imposto de Renda
+ * 
+ * Descrição:
+ * Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa.
+ * Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto
+ * de Renda, aplicando as taxas correspondentes a cada faixa salarial (Isento,
+ * 8%, 18% e 28%), considerando o cálculo por faixas progressivas.
+ */
+
 public class IncomeTaxCalculator {
     public static void main(String[] args) {
         
