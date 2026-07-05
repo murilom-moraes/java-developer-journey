@@ -18,11 +18,7 @@ public class NegativeNumberChecker {
 		
 		int numero = sc.nextInt();
 		
-		if (numero < 0) {
-			System.out.println("NEGATIVO");
-		} else {
-			System.out.println("NAO NEGATIVO");
-		}
+		System.out.println((numero < 0) ? "NEGATIVO" : "NAO NEGATIVO");
 		
 		sc.close();
 
