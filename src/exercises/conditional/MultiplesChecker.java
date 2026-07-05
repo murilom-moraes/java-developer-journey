@@ -21,10 +21,10 @@ public class MultiplesChecker {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		if((a % b == 0) || (b % a == 0)) {
+		if (a == 0 || b == 0) {
 			System.out.println("Sao Multiplos");
 		} else {
-			System.out.println("Nao sao Multiplos");
+			System.out.println(((a % b == 0) || (b % a == 0)) ? "Sao Multiplos" : "Nao sao Multiplos");
 		}
 
 		sc.close();
