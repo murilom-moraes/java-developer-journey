@@ -18,11 +18,7 @@ public class EvenOrOddChecker {
 		
 		int numero = sc.nextInt();
 		
-		if(numero % 2 == 0) {
-			System.out.println("PAR");
-		} else {
-			System.out.println("IMPAR");
-		}
+		System.out.println((numero % 2 == 0) ? "PAR" : "IMPAR");
 
 		sc.close();
 		
